@@ -1,0 +1,821 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border-t",
+				"border-top-color"
+			],
+			[
+				"boder",
+				"border-style"
+			],
+			[
+				"data",
+				"dataLoaded"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"border",
+				"border-width"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"boder-co",
+				"border-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"sub",
+				"sub_nav"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"m",
+				"main_nav"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"pa",
+				"paramValues"
+			],
+			[
+				"get",
+				"getListSegmentId"
+			],
+			[
+				"user",
+				"userListCollection"
+			],
+			[
+				"item",
+				"item_id"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"co",
+				"colourIteration"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"new",
+				"newColour"
+			],
+			[
+				"pc",
+				"pcNum"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"border-top",
+				"border-top-width"
+			],
+			[
+				"bor",
+				"border-collapse"
+			],
+			[
+				"su",
+				"suffix"
+			],
+			[
+				"User",
+				"UserCredentials"
+			],
+			[
+				"user_lis",
+				"user_list_temlate_items"
+			],
+			[
+				"UserLis",
+				"UserListCollection"
+			],
+			[
+				"handle",
+				"handleMatchedLogin"
+			],
+			[
+				"check",
+				"checkbox"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"login",
+				"loginPageView"
+			],
+			[
+				"goto",
+				"goto_login"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"get_class",
+				"get_class_methods"
+			],
+			[
+				"class",
+				"class_exists"
+			],
+			[
+				"eve",
+				"eventAggrigator"
+			],
+			[
+				"In",
+				"IndividualListModel"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"pass",
+				"password_2"
+			],
+			[
+				"sel",
+				"selectCurrentRadioButton"
+			],
+			[
+				"de",
+				"deselectCurrentRadioButton"
+			],
+			[
+				"se",
+				"setEnabledOnPasswordConfirmField"
+			],
+			[
+				"r",
+				"radio_group"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"Si",
+				"sign-up"
+			],
+			[
+				"visi",
+				"visible"
+			],
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"magin",
+				"margin-top"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"d",
+				"div"
+			],
+			[
+				"li",
+				"list-style"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"bord",
+				"border-style"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"el",
+				"el_1"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "front_end/index.html",
+			"settings":
+			{
+				"buffer_size": 1665,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front_end/js/excite.js",
+			"settings":
+			{
+				"buffer_size": 1110,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front_end/css/main.css",
+			"settings":
+			{
+				"buffer_size": 2748,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "front_end/data/excite_data.json",
+			"settings":
+			{
+				"buffer_size": 1058,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"ty",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"type",
+				"Set Syntax: TypeScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package in",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 260.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/DOCUMENTS/JAVASCRIPT and resources/Nic_Tournier_Triangles_Drifter_FirefoxOnly/css/main.css",
+		"/C/xampp/htdocs/mi-lieux/js/main.js",
+		"/D/DOCUMENTS/JAVASCRIPT and resources/Nic_Tournier_Triangles_Drifter_FirefoxOnly/index.html",
+		"/D/DOCUMENTS/JAVASCRIPT and resources/Nic_Tournier_Triangles_Drifter_FirefoxOnly/js/main.js",
+		"/C/xampp/htdocs/mi-lieux/js/app.js",
+		"/C/xampp/htdocs/mi-lieux/css/main.css",
+		"/C/xampp/htdocs/mi-lieux/index.html",
+		"/C/xampp/htdocs/excite_nic_tournier/front_end/css/styles.css",
+		"/C/xampp/htdocs/mi-lieux/html/LoginPageContent.html",
+		"/C/xampp/htdocs/mi-lieux/templates/UserItemListTemplate.html",
+		"/C/xampp/htdocs/mi-lieux/views/UserListContentView.js",
+		"/C/xampp/htdocs/mi-lieux/views/LoginPageContentView.js",
+		"/C/xampp/htdocs/mi-lieux/html/HomePageContent.html",
+		"/C/xampp/htdocs/mi-lieux/views/HeaderContentView.js",
+		"/C/xampp/htdocs/mi-lieux/html/HeaderContent.html",
+		"/C/xampp/htdocs/mi-lieux/templates/NavigationContentTemplate.html",
+		"/C/xampp/htdocs/mi-lieux/views/UserItemContentView.js",
+		"/C/xampp/htdocs/mi-lieux/data/list_data.json",
+		"/C/xampp/htdocs/mi-lieux/api/index.php",
+		"/C/xampp/htdocs/mi-lieux/data/item_data.json",
+		"/C/xampp/htdocs/mi-lieux/views/NavigationContentView.js",
+		"/C/xampp/htdocs/mi-lieux/templates/UserItemSummaryTemplate.html",
+		"/C/xampp/htdocs/mi-lieux/html/UserListTemplate.html",
+		"/C/xampp/htdocs/mi-lieux/templates/UserEntryListRowTemplate.html",
+		"/C/xampp/htdocs/mi-lieux/templates/UserItemTemplate.html",
+		"/C/xampp/htdocs/mi-lieux/views/UserEntryListContentView.js",
+		"/C/xampp/htdocs/mi-lieux/views/LoginPageView.js",
+		"/C/xampp/htdocs/mi-lieux/views/HomePageContentView.js",
+		"/C/xampp/htdocs/mi-lieux/templates/NavigationContent.html",
+		"/D/DOCUMENTS/GIT REPO/backbonetutorials/videos/beginner/index.html",
+		"/C/xampp/htdocs/mi-lieux/html/UserEntryListContent.html",
+		"/C/xampp/htdocs/mi-lieux/html/NavigationContent.html",
+		"/D/DOCUMENTS/GIT REPO/mi-lieux/js/app.js",
+		"/C/xampp/htdocs/mi-lieux/api/.htaccess",
+		"/D/DOCUMENTS/GIT REPO/backbone-cellar/tutorial/api/.htaccess",
+		"/C/xampp/htdocs/mi-lieux/php/index.php",
+		"/C/xampp/htdocs/bbjs_beginner/index.html",
+		"/C/xampp/htdocs/mi-lieux/templates/CategorySelectorSingleTemplate.html",
+		"/C/xampp/htdocs/mi-lieux/templates/TypeEditorSingleTemplate.html",
+		"/C/xampp/htdocs/mi-lieux/css/normalize.css",
+		"/C/xampp/htdocs/mi-lieux/js/vendor/handlebars-1.0.0-rc.3.js",
+		"/C/xampp/htdocs/mi-lieux/html/HeaderContent",
+		"/C/xampp/htdocs/mi-lieux/html/LogoImage",
+		"/C/xampp/htdocs/mi-lieux/views/HomePageView.js",
+		"/C/xampp/htdocs/mi-lieux/views/HeadContentView.js",
+		"/C/xampp/htdocs/mi-lieux/views/ResultsView.js",
+		"/C/xampp/htdocs/mi-lieux/templates/ResultsTableRowTemplate.html",
+		"/D/DOCUMENTS/JOB APPLICATIONS/Nic_Tournier_Triangles_Drifter_FirefoxOnly/index.html",
+		"/D/DOCUMENTS/JOB APPLICATIONS/nicolas_tournier_test_learnosity/views/ResultsView.js",
+		"/D/DOCUMENTS/JOB APPLICATIONS/nicolas_tournier_test_learnosity/views/HeadContentView.js",
+		"/C/xampp/htdocs/mi-lieux/js/text.js",
+		"/C/xampp/htdocs/mi-lieux/js/vendor/require.js",
+		"/D/DOCUMENTS/Family n friends/mum/website/site/main.js",
+		"/D/DOCUMENTS/Family n friends/mum/website/site/index.html",
+		"/D/DOCUMENTS/Family n friends/mum/website/site/main.ts",
+		"/C/Users/nicolas/AppData/Roaming/Sublime Text 2/Packages/User/TypeScript.sublime-build",
+		"/C/Users/nicolas/AppData/Roaming/Sublime Text 2/Packages/TypeScript/typescript.tmLanguage",
+		"/D/DOCUMENTS/TESTING_GENERAL/javascript/tester_1.js",
+		"/D/DOCUMENTS/TESTING_GENERAL/javascript/style.css",
+		"/D/DOCUMENTS/TESTING_GENERAL/javascript/index.html",
+		"/D/MY DOCUMENTS/TESTING GENERAL/AngularJS/angular-phonecat/app/js/controllers.js",
+		"/D/DOCUMENTS/TESTING_GENERAL/AngularJS/angular-phonecat/scripts/web-server.js",
+		"/D/MY DOCUMENTS/TESTING GENERAL/AngularJS/angular-phonecat/app/index.html",
+		"/D/MY DOCUMENTS/TESTING GENERAL/AngularJS/angular-phonecat/phone.sublime-project",
+		"/C/Users/nicolas/Documents/sublime_test",
+		"/C/Users/nicolas/AppData/Roaming/Sublime Text 2/Packages/CoffeeCompile/CoffeeCompile.sublime-settings"
+	],
+	"find":
+	{
+		"height": 69.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"main_nav",
+			"#main_nav div",
+			"nav_item",
+			"enabled_nav",
+			"nav_button",
+			"that",
+			"header",
+			"render",
+			"item_summary",
+			"item_summary_template_body",
+			"60%",
+			"50%",
+			"#email",
+			"font-size",
+			"type_selection_container",
+			"this.",
+			"colourI",
+			"router",
+			"that",
+			"listSegmentStartIndex",
+			"userListCollection",
+			"handleDeleteSelectedItem",
+			"deleteSelectedItem",
+			"handleDeleteSelectedItem",
+			"this.userListCollection",
+			"userListCollection",
+			"listSegmentStartIndex",
+			"getListSegmentId",
+			"currentlySelectedCollectionItemIndex",
+			"summaryData",
+			"summaryItem",
+			"this.collection",
+			"splice",
+			"r.",
+			"offlineDataCue",
+			"userCredentials",
+			"handleFormSubmissionEvent",
+			"submitFormEvent",
+			"currentlySelectedCollectionItem",
+			"deleteSelectedItem",
+			"list_item",
+			"navigation",
+			"item_summary_template_head",
+			"list_item_hover_active",
+			"colourIteration",
+			"maxColourIterations",
+			"user_list",
+			"1%",
+			"hr_header",
+			"5%",
+			"10%",
+			"margin: 10%",
+			"hr_header",
+			"10%",
+			"text-align",
+			"item_summary_template_body",
+			"list_item",
+			".list_item",
+			"item_summary_template_head",
+			"item_summary_template_body",
+			"list_page_button",
+			"new_item",
+			"user_list_template",
+			"user_list_te",
+			"user_list",
+			"overflow",
+			"padding",
+			"sd",
+			"    border-style: solid;\n    border-width: 2px;\n    border-color: #ddd;",
+			"\"title\"",
+			"border-radius",
+			"font-family: gentium-basic, serif;",
+			"sub",
+			"#user_list_template_head",
+			":hover",
+			":: ",
+			": :",
+			"{",
+			" {",
+			":",
+			": ",
+			"1:45:30 PM",
+			"temlate",
+			"userCredentials",
+			"IndividualListModel",
+			"IndividualListCollection",
+			"currentRoute",
+			"goto_you",
+			"ListContentView",
+			"LoginPageView",
+			"you'",
+			"you",
+			", \"score\"",
+			"\"type\":",
+			"\"average_score\":\"3.625\", ",
+			"NavigationContent",
+			"isLoggedIn",
+			"isLogg",
+			"currentRoute",
+			"eventAggrigator",
+			"']);\n",
+			"userCredentials",
+			"App.",
+			"userCredentials",
+			"loginPageView",
+			"that",
+			"currentRoute",
+			"loginPageView",
+			"router",
+			"user",
+			"enabled",
+			"color",
+			"yo",
+			"; ",
+			"fetch",
+			"model",
+			".on(",
+			"change",
+			"cha",
+			"change",
+			"fetch",
+			"hover",
+			"double",
+			"selectionType",
+			"that",
+			"new",
+			"body",
+			": "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"MiLieux",
+			"this.userListCollection",
+			"this.listSegmentStartIndex",
+			"\"tags\"",
+			"::",
+			" {",
+			"{",
+			": ",
+			":",
+			"1:45pm",
+			"1:45pm\nLoginPageContentView",
+			"template\nLoginPageContentView",
+			"you'\nLoginPageContentView",
+			"list'",
+			"",
+			"NavigationContentTemplate",
+			"eventAggregator",
+			"",
+			"selectedRadioType",
+			":",
+			"",
+			"type.",
+			"if"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "front_end/index.html",
+					"settings":
+					{
+						"buffer_size": 1665,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								390,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 171.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "front_end/js/excite.js",
+					"settings":
+					{
+						"buffer_size": 1110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								513,
+								513
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 798.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "front_end/css/main.css",
+					"settings":
+					{
+						"buffer_size": 2748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1908,
+								1908
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1699.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "front_end/data/excite_data.json",
+					"settings":
+					{
+						"buffer_size": 1058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								613,
+								613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 249.0,
+	"status_bar_visible": true
+}
