@@ -119,8 +119,10 @@ body {
 }
 #sub_nav {
 	display: inline-block;
-	
 	width: 70%;
+}
+#sub_nav .selected {
+	background-color: #FFF;
 }
 #sub_nav div {
 	width: 30em;
@@ -150,6 +152,18 @@ body {
 	height: 1.5em;
 	font-size: 16px;
 	padding-left: 25px;
+}
+#media_grid {
+	width: 680px;
+	height: 440px;
+	margin: 20px auto;
+	overflow: auto;
+}
+#media_grid img {
+	padding: 5px;
+	margin: 5px;
+	background-color: #000;
+	float:left;
 }
 h1 {
 	font-size: 1.5em;
