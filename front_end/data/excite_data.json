@@ -7,79 +7,43 @@
                     "url": "images/items/item_1_image.png"
                 },
                 {
-                    "type": "image",
-                    "url": "images/items/item_1_image.png"
-                },
-                {
-                    "type": "image",
-                    "url": "images/items/item_1_image.png"
-                },
-                {
-                    "type": "image",
-                    "url": "images/items/item_1_image.png"
-                },
-                {
-                    "type": "image",
-                    "url": "images/items/item_1_image.png"
-                },
-                {
-                    "type": "image",
-                    "url": "images/items/item_1_image.png"
-                },
-                {
-                    "type": "image",
-                    "url": "images/items/item_1_image.png"
-                },
-                {
-                    "type": "image",
-                    "url": "images/items/item_1_image.png"
-                },
-                {
                     "type": "video",
-                    "url": "https://www.youtube.com/watch?v=gaI6kBVyu00"
+                    "url": "http://www.youtube.com/embed/gaI6kBVyu00"
                 },
                 {
                     "type": "text_image",
-                    "url": "images/items/item_1_image.png",
-                    "text": "Plain text, not looking for any trouble"
+                    "url": "images/items/item_1_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
                 },
                 {
                     "type": "text_header",
-                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please'"
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
                 },
                 {
                     "type": "image",
                     "url": "images/items/item_1_image.png"
                 },
                 {
-                    "type": "video",
-                    "url": "https://www.youtube.com/watch?v=gaI6kBVyu00"
-                },
-                {
                     "type": "text_image",
-                    "url": "images/items/item_1_image.png",
-                    "text": "Plain text, not looking for any trouble"
+                    "url": "images/items/item_1_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
                 },
                 {
                     "type": "text_header",
-                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please'"
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
                 },
                 {
                     "type": "image",
                     "url": "images/items/item_1_image.png"
                 },
                 {
-                    "type": "video",
-                    "url": "https://www.youtube.com/watch?v=gaI6kBVyu00"
-                },
-                {
                     "type": "text_image",
-                    "url": "images/items/item_1_image.png",
-                    "text": "Plain text, not looking for any trouble"
+                    "url": "images/items/item_1_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
                 },
                 {
                     "type": "text_header",
-                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please'"
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
                 }
             ],
             "item_2": [
@@ -88,17 +52,17 @@
                     "url": "images/items/item_2_image.png"
                 },
                 {
-                    "type": "video",
-                    "url": "https://www.youtube.com/watch?v=gaI6kBVyu00"
+                    "type": "image",
+                    "url": "images/items/item_2_image.png"
                 },
                 {
                     "type": "text_image",
-                    "url": "images/items/item_2_image.png",
-                    "text": "Plain text, not looking for any trouble"
+                    "url": "images/items/item_2_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
                 },
                 {
                     "type": "text_header",
-                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please'"
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
                 },
                 {
                     "type": "image",
@@ -106,33 +70,139 @@
                 },
                 {
                     "type": "video",
-                    "url": "https://www.youtube.com/watch?v=gaI6kBVyu00"
+                    "url": "http://www.youtube.com/embed/gaI6kBVyu00"
                 },
                 {
                     "type": "text_image",
-                    "url": "images/items/item_2_image.png",
-                    "text": "Plain text, not looking for any trouble"
+                    "url": "images/items/item_2_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
                 },
                 {
                     "type": "text_header",
-                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please'"
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
                 },
                 {
                     "type": "image",
                     "url": "images/items/item_2_image.png"
                 },
                 {
-                    "type": "video",
-                    "url": "https://www.youtube.com/watch?v=gaI6kBVyu00"
+                    "type": "image",
+                    "url": "images/items/item_2_image.png"
                 },
                 {
                     "type": "text_image",
-                    "url": "images/items/item_2_image.png",
-                    "text": "Plain text, not looking for any trouble"
+                    "url": "images/items/item_2_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
                 },
                 {
                     "type": "text_header",
-                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please'"
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
+                }
+            ],
+            "item_3": [
+                {
+                    "type": "image",
+                    "url": "images/items/item_3_image.png"
+                },
+                {
+                    "type": "video",
+                    "url": "http://www.youtube.com/embed/gaI6kBVyu00"
+                },
+                {
+                    "type": "text_image",
+                    "url": "images/items/item_3_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
+                },
+                {
+                    "type": "text_header",
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
+                },
+                {
+                    "type": "image",
+                    "url": "images/items/item_3_image.png"
+                },
+                {
+                    "type": "image",
+                    "url": "images/items/item_3_image.png"
+                },
+                {
+                    "type": "text_image",
+                    "url": "images/items/item_3_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
+                },
+                {
+                    "type": "text_header",
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
+                },
+                {
+                    "type": "image",
+                    "url": "images/items/item_3_image.png"
+                },
+                {
+                    "type": "image",
+                    "url": "images/items/item_3_image.png"
+                },
+                {
+                    "type": "text_image",
+                    "url": "images/items/item_3_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
+                },
+                {
+                    "type": "text_header",
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
+                }
+            ],
+            "item_4": [
+                {
+                    "type": "image",
+                    "url": "images/items/item_4_image.png"
+                },
+                {
+                    "type": "image",
+                    "url": "images/items/item_4_image.png"
+                },
+                {
+                    "type": "text_image",
+                    "url": "images/items/item_4_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
+                },
+                {
+                    "type": "text_header",
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
+                },
+                {
+                    "type": "image",
+                    "url": "images/items/item_4_image.png"
+                },
+                {
+                    "type": "text_image",
+                    "url": "images/items/item_4_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
+                },
+                {
+                    "type": "text_header",
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
+                },
+                {
+                    "type": "image",
+                    "url": "images/items/item_4_image.png"
+                },
+                {
+                    "type": "video",
+                    "url": "http://www.youtube.com/embed/gaI6kBVyu00"
+                },
+                {
+                    "type": "text_image",
+                    "url": "images/items/item_4_text_image.png",
+                    "text": "Plain text, not looking for any trouble."
+                },
+                {
+                    "type": "text_header",
+                    "text": "<h1>Bad Text</h1><br>The kind of text which borrows HTML tags without saying 'please.'"
+                },
+                {
+                    "type": "image",
+                    "url": "images/items/item_4_image.png"
                 }
             ]
         }

@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"seac",
+				"searchField"
+			],
+			[
+				"sear",
+				"searchPhrase"
+			],
+			[
+				"load",
+				"loadItems"
+			],
+			[
+				"sel",
+				"selectItem"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"b",
+				"border-style"
+			],
+			[
+				"show",
+				"showTextHeader"
+			],
+			[
+				"nav",
+				"navigation"
+			],
+			[
+				"sec",
+				"secondary"
+			],
+			[
+				"pa",
+				"padding-right"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"loa",
+				"loadCount"
+			],
+			[
+				"loadC",
+				"loadCount"
+			],
+			[
+				"in",
+				"initialize"
+			],
+			[
 				"border-t",
 				"border-top-color"
 			],
@@ -14,10 +74,6 @@
 			[
 				"data",
 				"dataLoaded"
-			],
-			[
-				"ma",
-				"margin"
 			],
 			[
 				"border",
@@ -32,16 +88,8 @@
 				"border-color"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"sub",
 				"sub_nav"
-			],
-			[
-				"padd",
-				"padding"
 			],
 			[
 				"margin",
@@ -66,10 +114,6 @@
 			[
 				"marg",
 				"margin-top"
-			],
-			[
-				"pa",
-				"paramValues"
 			],
 			[
 				"get",
@@ -184,10 +228,6 @@
 				"password_2"
 			],
 			[
-				"sel",
-				"selectCurrentRadioButton"
-			],
-			[
 				"de",
 				"deselectCurrentRadioButton"
 			],
@@ -198,10 +238,6 @@
 			[
 				"r",
 				"radio_group"
-			],
-			[
-				"in",
-				"inline-block"
 			],
 			[
 				"che",
@@ -295,7 +331,7 @@
 			"file": "front_end/index.html",
 			"settings":
 			{
-				"buffer_size": 1665,
+				"buffer_size": 3672,
 				"line_ending": "Windows"
 			}
 		},
@@ -303,7 +339,7 @@
 			"file": "front_end/js/excite.js",
 			"settings":
 			{
-				"buffer_size": 1110,
+				"buffer_size": 5420,
 				"line_ending": "Windows"
 			}
 		},
@@ -311,7 +347,7 @@
 			"file": "front_end/css/main.css",
 			"settings":
 			{
-				"buffer_size": 2748,
+				"buffer_size": 3750,
 				"line_ending": "Windows"
 			}
 		},
@@ -319,7 +355,7 @@
 			"file": "front_end/data/excite_data.json",
 			"settings":
 			{
-				"buffer_size": 1058,
+				"buffer_size": 8118,
 				"line_ending": "Windows"
 			}
 		}
@@ -475,6 +511,28 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"container",
+			"initialize",
+			"displayAutoComplete",
+			"checkForMatchedPhrase",
+			"displayAutoComplete",
+			"checkForMatchedPhrase",
+			"console",
+			"3",
+			"2",
+			"line-height",
+			"please",
+			"trouble",
+			"highlightItem",
+			"getItem",
+			"currentItemIndex",
+			"itemSelected",
+			"http://youtu.be/gaI6kBVyu00",
+			"https://www.youtube.com/watch?v=gaI6kBVyu00",
+			"loadComplete",
+			"highlightItem",
+			"media_grid",
+			"that",
 			"main_nav",
 			"#main_nav div",
 			"nav_item",
@@ -580,29 +638,7 @@
 			"App.",
 			"userCredentials",
 			"loginPageView",
-			"that",
-			"currentRoute",
-			"loginPageView",
-			"router",
-			"user",
-			"enabled",
-			"color",
-			"yo",
-			"; ",
-			"fetch",
-			"model",
-			".on(",
-			"change",
-			"cha",
-			"change",
-			"fetch",
-			"hover",
-			"double",
-			"selectionType",
-			"that",
-			"new",
-			"body",
-			": "
+			"that"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -610,6 +646,12 @@
 		"regex": false,
 		"replace_history":
 		[
+			"4",
+			"3",
+			"please.",
+			"trouble.",
+			"http://www.youtube.com/embed/gaI6kBVyu00",
+			"http://youtu.be/gaI6kBVyu00",
 			"MiLieux",
 			"this.userListCollection",
 			"this.listSegmentStartIndex",
@@ -643,7 +685,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -651,23 +693,24 @@
 					"file": "front_end/index.html",
 					"settings":
 					{
-						"buffer_size": 1665,
+						"buffer_size": 3672,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								390,
-								390
+								1647,
+								1647
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -677,23 +720,24 @@
 					"file": "front_end/js/excite.js",
 					"settings":
 					{
-						"buffer_size": 1110,
+						"buffer_size": 5420,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								513,
-								513
+								500,
+								500
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 798.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -703,15 +747,15 @@
 					"file": "front_end/css/main.css",
 					"settings":
 					{
-						"buffer_size": 2748,
+						"buffer_size": 3750,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1908,
-								1908
+								2940,
+								2940
 							]
 						],
 						"settings":
@@ -720,7 +764,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1699.0,
+						"translation.y": 2866.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -730,15 +774,15 @@
 					"file": "front_end/data/excite_data.json",
 					"settings":
 					{
-						"buffer_size": 1058,
+						"buffer_size": 8118,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								613,
-								613
+								4129,
+								4129
 							]
 						],
 						"settings":
@@ -787,6 +831,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.coffeecompile_output":
+	{
+		"height": 160.0
+	},
 	"output.exec":
 	{
 		"height": 124.0
@@ -816,6 +864,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 249.0,
+	"side_bar_width": 137.0,
 	"status_bar_visible": true
 }

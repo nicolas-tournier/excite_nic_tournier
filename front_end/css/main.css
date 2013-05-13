@@ -84,6 +84,7 @@ body {
 }
 #main_nav div h1 {
 	padding: .5em;
+		font-weight: bold;
 }
 /*hide uls in navs to start with*/
 #main_nav div ul {
@@ -99,7 +100,11 @@ body {
 	margin: .5em .5em;
 	background-color: #2AD;
 	padding:.5em;
-	line-height: 1.5em;
+	line-height: 1.5;
+}
+#main_nav li:hover {
+	background-color: #012;
+	color: #FFF;
 }
 #credentials {
 	position: absolute;
@@ -159,15 +164,58 @@ body {
 	margin: 20px auto;
 	overflow: auto;
 }
-#media_grid img {
+#media_grid div {
 	padding: 5px;
 	margin: 5px;
-	background-color: #000;
+	background-color: #023;
 	float:left;
+	width:200px;
+	height:200px;
+}
+#media_grid div span {
+	display: block;
+	color: #FFF;
+	margin:15px 10px 20px 10px;
+	line-height: 1.5;
+}
+#twoColumnText {
+
+	-moz-column-count:2;
+	-webkit-column-count:2;
+	column-count:2;
+
+	-moz-column-gap:40px;
+	-webkit-column-gap:40px;
+	column-gap:40px;
+
+	width: 680px;
+	height: 475px;
+	margin: 20px auto;
+	overflow: auto;
+	line-height: 1.5;
+}
+#twoColumnText p {
+
+	margin-bottom: 1em;
 }
 h1 {
 	font-size: 1.5em;
 }
 h2 {
 	font-size: 1.3em;
+}
+
+/*jquery ui*/
+
+.ui-autocomplete {
+	max-height: 100px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+}
+/* IE 6 doesn't support max-height
+* we use height instead, but this forces the menu to always be this tall
+*/
+* html .ui-autocomplete {
+	height: 100px;
 }
