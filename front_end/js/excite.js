@@ -27,6 +27,8 @@ ExciteApp = {
 			this.media.initialize(this.model.media, this.view.media);
 			this.navigation.primary.initialize();
 			this.navigation.secondary.initialize(this.model.media, this.view.navigation.secondary, this.media);
+			this.tabbed.stage.initialize(this.model.stage, this.view.tabbed.stage);
+			this.tabbed.nav.initialize(this.model.stage, this.view.tabbed.nav, this.tabbed.stage);
 			this.view.search.initialize();
 		},
 
@@ -107,9 +109,8 @@ ExciteApp = {
 			
 			initialize: function(model, view){
 
+				this.model = model;
 				this.view = view;
-				//start loading the first batch of images
-				this.loadItems(model.getItem(1));
 			},
 
 			loadItems: function(data){
@@ -153,10 +154,107 @@ ExciteApp = {
 
 			nav: {
 
+				currentlySelected: null,
+				model: null,
+				view: null,
+				controller: null,
+
+				initialize: function(model, view, controller){
+
+					this.model = model;
+					this.view = view;
+					this.controller = controller;
+					this.view.initialize();
+					var that = this;
+
+					$(this.view).bind('tabSelected', function(ev, tab){
+						var tabID = $(tab).attr('id');
+						that.selectTab(tabID);
+					});
+
+					this.selectTab('tab_1');
+				},
+
+				selectTab: function(tab) {
+
+					if(this.currentlySelected != null){
+
+						this.view.removeHighlightTab(this.currentlySelected);
+					}
+
+					this.currentlySelected = tab;
+					this.view.highlightTab(tab);
+
+					var tabData = this.model.getTabData(this.findTabIndex(tab));
+					this.controller.loadTabs(tabData);
+				},
+
+				findTabIndex: function(tab){
+
+					return $('#tabs div').index($('#'+tab))+1;
+				}
 			},
 
-			carousel: {
+			stage: {
 
+				model: null,
+				view: null,
+				
+				initialize: function(model, view){
+
+					this.model = model;
+					this.view = view;
+				},
+
+				loadTabs: function(data){
+
+					var el_media = $('#tabbed_content_stage');
+					el_media.empty();
+
+					var type = data.type;
+					
+					switch(type){
+
+						case 'carousel':
+
+							this.view.showCarousel(el_media);
+
+							var that = this;
+							$(this.view).bind('carouselNavClicked', function(ev, nav){
+								var navID = $(nav).attr('id');
+								var dir = that.getCarouselDir(navID);
+								that.view.setImage(el_media, that.model.getCarouselImage(dir));
+							});
+
+							this.view.setImage(el_media, this.model.getCarouselImage(0));
+
+						break;
+
+						case 'canvas':
+							var url = data.url;
+							this.view.showCanvas(url, el_media);
+						break;
+
+						case 'flash':
+							var url = data.url;
+							this.view.showFlash(url, el_media);
+						break;
+
+							this.view.showSVG(el_media);
+						case 'svg':
+						break;
+					}
+					
+				},
+				getCarouselDir: function(id){
+
+					if(id=='carousel_left'){
+						var dir = '-';
+					}else if(id=='carousel_right'){
+						var dir = '+';
+					}
+					return dir;
+				}
 			}
 		}
 
@@ -168,13 +266,11 @@ ExciteApp = {
 
 			var that = this;
 
-			this.media.initialize();
-
 			$.getJSON(url, function(data) {
 				that.appData = data;
 				//portion out data to interested model members
 				that.media.data = that.appData.media.items;
-
+				that.stage.data = that.appData.stage.tabs;
 
 				$(that).trigger('dataLoaded');
 			});
@@ -184,29 +280,50 @@ ExciteApp = {
 
 		media: {
 
-			initialize: function(){
-
-			},
-
 			data: {},
 
 			getItem: function(index){
-				/*var o = new TestProto();
-				TestProto.prototype.name = 'nic';
-				console.log(o.name);*/
+	
 				var currentItemData = this.data['item_'+index];
 				return currentItemData;
 			}
 		},
 
-		tabbed: {
+		stage: {
 
-			nav: {
+			data:{},
 
+			currentTabData: {},
+
+			currentCarouselImageIndex: 0,
+
+			getTabData: function(index){
+
+				this.currentTabData = this.data['tab_'+index];
+				return this.currentTabData;
 			},
 
-			carousel: {
+			getCarouselImage: function(dir){
 
+					var carouselImages = this.currentTabData.images;
+
+					if(dir=='+'){
+						this.currentCarouselImageIndex++;
+						if(this.currentCarouselImageIndex > (carouselImages.length-1)){
+							this.currentCarouselImageIndex = 0;
+						}
+					}else if(dir=='-'){
+						this.currentCarouselImageIndex--;
+						if(this.currentCarouselImageIndex < 0) {
+							this.currentCarouselImageIndex = carouselImages.length-1;
+						}
+					}else {
+						this.currentCarouselImageIndex = parseInt(dir);
+					}
+					
+					var img_url = carouselImages[this.currentCarouselImageIndex].url;
+
+					return img_url;
 			}
 		},
 
@@ -269,11 +386,11 @@ ExciteApp = {
 				},
 
 				highlightItem: function(item){
-					$(this.el+' #'+item).addClass('selected');
+					$(this.el+' #'+item).addClass('item_selected');
 				},
 				
 				removeHighlightItem: function(item){
-					$(this.el+' #'+item).removeClass('selected');
+					$(this.el+' #'+item).removeClass('item_selected');
 				}
 			}
 		},
@@ -282,10 +399,71 @@ ExciteApp = {
 
 			nav: {
 
+				el:'#tabs',
+
+				initialize: function(){
+
+					var that = this;
+
+					$('#tabs .tab').bind('click', function(ev){
+						$(that).trigger('tabSelected', [ev.currentTarget])
+					});
+				},
+
+				highlightTab: function(tab){
+
+					$(this.el+' #'+tab).addClass('tab_selected');
+				},
+				
+				removeHighlightTab: function(tab){
+
+					$(this.el+' #'+tab).removeClass('tab_selected');
+				}
 			},
 
-			carousel: {
+			stage: {
 
+				showCarousel: function(el){
+					
+					var navs = '<div id="carousel_nav"><img id="carousel_left" src="images/carousel/left.png"><img  id="carousel_right" src="images/carousel/right.png"></div>';
+					el.append(navs);
+
+					var that = this;
+
+					$('#carousel_nav').bind('click', function(ev){
+
+						$(that).trigger('carouselNavClicked', [ev.target])
+					});
+				},
+
+				setImage: function(el, img_url){
+
+					$('.carousel_item').remove();
+
+					var img = '<div class="carousel_item opacityZero"><img src="'+img_url+'"/></div>';
+					el.append(img);
+
+					img = $('.carousel_item');
+					var alphaVal = 0;
+					img.fadeTo(1000, 1, function() {
+						//this.addClass
+					});
+
+				},
+				showCanvas: function(url, el){
+
+
+				},
+				showFlash: function(url, el){
+
+					var flash_url = url;
+
+					var embed = '<div class="carousel_item"><object width="500" height="375"><param name="movie" value="'+flash_url+'"><embed src="'+flash_url+'" width="500" height="375"></embed></object> </div>';
+					el.append(embed);
+				},
+				showSVG: function(el){
+
+				}
 			}
 		},
 
@@ -307,7 +485,6 @@ ExciteApp = {
 		}
 	}
 };
-/*function TestProto(){};*/
 
 //on document ready
 $(function(){

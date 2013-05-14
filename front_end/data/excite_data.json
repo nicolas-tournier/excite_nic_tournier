@@ -206,5 +206,45 @@
                 }
             ]
         }
+    },
+    "stage": {
+
+        "tabs" : {
+
+            "tab_1" : {
+                "type":"carousel",
+                "images": [
+
+                        {
+                            "url": "images/carousel/carousel_image_1.jpg"
+                        },
+                        {
+                            "url": "images/carousel/carousel_image_2.jpg"
+                        },
+                        {
+                            "url": "images/carousel/carousel_image_3.jpg"
+                        },
+                        {
+                            "url": "images/carousel/carousel_image_4.jpg"
+                        },
+                        {
+                            "url": "images/carousel/carousel_image_5.jpg"
+                        }
+                    ]
+                },
+
+            "tab_2" : {
+                "type": "flash",
+                "url" : "flash/nic_flash.swf"
+            },
+            "tab_3" : {
+                "type": "canvas",
+                "url" : "http://somecontent"
+            },
+            "tab_4" : {
+                "type": "svg",
+                "url" : "http://somecontent"
+            }
+        }
     }
 }
